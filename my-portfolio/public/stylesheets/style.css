@@ -1,0 +1,73 @@
+/* 
+ * File Name: style.css
+ * Student's Name: Adilet Masalbekov
+ * StudentID: 301283691
+ * Date: 10.01.2023
+ */
+
+/* Body styling */
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+/* Link button styling */
+a {
+  color: #00B7FF;
+}
+
+/* Profile image styling */
+.profile-image {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+/* Project images styling */
+.project img {
+  max-width: 300px;
+}
+
+/* Service images styling */
+.service img {
+  max-width: 100px;
+}
+
+/* Navigation styles */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Image styling */
+.img-fluid {
+  margin: 0 10px; 
+}
+
+/* Contact image margining */
+.contact-image {
+  margin-left: 20px;
+}
+
+/* Form input styling */
+.form-control {
+  border-radius: 15px;
+  border: 2px solid #007bff;
+}
+
+/* Form input focus styling */
+.form-control:focus {
+  border-color: #0056b3;
+  box-shadow: none;
+}
+
+/* Button styling */
+.btn-primary {
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+
+/* Textarea styling */
+textarea.form-control {
+  resize: vertical;
+}
